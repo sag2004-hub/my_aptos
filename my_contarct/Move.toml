@@ -1,0 +1,12 @@
+[package]
+name = "my_aptos_project_1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+my_token = "0x4a89f27821a779f01fc085e8264ae50437f76a53c671109351201b313c3db05b"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
